@@ -1,0 +1,29 @@
+Hoja de ruta:
+
+    1) Configurar equipo para el ambiente de trabajo. Guia: https://docs.google.com/document/d/18Z4pGjY1HvFEluo55g5i3dEwkpx9In9KmXtrbHyF4R4/edit?usp=sharing
+
+        Win + c++ -> instalar MinGW https://docs.google.com/document/d/1DiKETQBzwwwjVe9o14XEzwBGRXbJWNYqLwClGfWEluI/edit
+        Win + java -> instalar jdk8 https://www.oracle.com/java/technologies/javase/javase-jdk8-downloads.html
+        Mac + c++ -> instalar XCode http://www.edparrish.net/common/macgpp.php OJO! descarga grande!
+        Mac + java -> instalar jdk8 https://www.oracle.com/java/technologies/javase/javase-jdk8-downloads.html
+        Linux -> depende de cada distro (consultar con profesor)
+
+    Nota: en el caso de Windows, no olvidar cambiar PATH (variable de entorno)
+    Nota2: en caso de Windows y querer experimentar: WSL (Windows Subsytem for Linux) -> preguntar al profesor en caso de ayuda. ref: https://docs.microsoft.com/en-us/windows/wsl/install-win10
+
+    2) Compilar y correr los ejemplos: ejemplo.cpp o Ejemplo.java
+
+    TIP: Comandos.txt
+
+    3) Leer y escribir archivos externos
+
+    Nota: usar cmd y no powershell en caso de Windows
+
+    4) Empezar con: https://docs.google.com/document/d/1ejyxYLzqQGNTPOWlYllFQnwKeF6zgZgOuwVEfaMzfpU/edit?usp=sharing
+        a) Calculo empirico del orden
+        b) Comparar archivos
+            Win: fc (filecompare) ref: https://www.howtogeek.com/206123/how-to-use-fc-file-compare-from-the-windows-command-prompt/
+            Mac & linux: diff ref: https://www.computerhope.com/unix/udiff.htm tip: usar --strip-trailing-cr
+        c) Ejercicio 3.1
+
+Resumen de herramientas: Herramientas.txt

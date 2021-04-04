@@ -1,0 +1,15 @@
+Implementación de la cola prioridad con HEAP.
+
+Contexto: el programa simulará un CPU donde se le agregan instrucciones (con priodidad) a una cola de prioridad
+y además son ejecutadas (impresas)
+La idea es que el programa lea un xxxx.in.txt donde:
+1) la primera linea dice cuantos COMANDOS DE SALIDA se van a leer
+2) las siguientes lineas pueden ser de dos tipos:
+     - una prioridad positiva (int) seguido de un COMANDO DE SALIDA (string) que deberá ser 
+        guardada en la cola de prioridad hasta se ordene ser ejecutado.
+     - "-1", que indica que el comando con más prioridad debe ser ejecutado (impreso).
+
+PD:
+- tiene mayor prioridad mientras el número es menor.
+- si la cola esta vacia y se ordena un -1, no se imprime nada
+- los "-1" NO estan contados dentro la primera linea del archivo (cantidad de COMANDOS DE SALIDA)

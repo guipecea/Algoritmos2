@@ -1,0 +1,10 @@
+Unix (linux + mac)
+    - compilador: g++ (c++) jdk8+(java)
+    - IDE: a elección, recomendación "Visual Studio Code"
+    - herramienta de checkeo: a elección, recomendación "diff"
+
+Windows
+    - compilador: g++ (c++) jdk8+(java)
+    - IDE: a elección, recomendación "Visual Studio Code"
+    - herramienta de checkeo: a elección, recomendación "FC"/WinMerge
+    - extra: MinGW

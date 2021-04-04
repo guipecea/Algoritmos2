@@ -1,0 +1,23 @@
+Ejercicio 1:
+
+    Utilizando un AVL como estructura auxiliar, debe ordenar una secuencia de numeros.
+
+    Formato de entrada:
+        N -> nro de casos
+        num1
+        num2
+        ...
+        numN
+
+    Nota: puede haber numeros repetidos (debe considerarlo). https://www.geeksforgeeks.org/avl-with-duplicate-keys
+
+
+Ejercicio 2:
+
+    Considerando los mismos inputs (mismo formato), imprimir el arbol en amplitud (https://es.wikipedia.org/wiki/Recorrido_de_%C3%A1rboles#Recorrido_en_anchura-primero).
+
+    Nota: De haber repetidos no considerarlos (imprimir tal cual el arbol)
+
+Ejercicio 3:
+
+    Dado el mismo input y usando el AVL, imprimir los 10 menores numeros.
