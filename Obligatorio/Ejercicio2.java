@@ -7,18 +7,19 @@ public class Ejercicio2 {
         Scanner sc = new Scanner(System.in);
 
         int n = sc.nextInt();
-
+        //suma 1 para para mantener la estructura de un MinHeap
         int[] arrayHeap = new int[n+1];
         boolean flag = true;
         int result = 1;
-        //El primero carga 0 para simular el array del MinHeap
+        //El primero carga 0 para simular mantener la estructura del MinHeap.
         arrayHeap[0] = 0;
-        int i = 2;
-
+        
         //Inserto Primer Elemento.    
         arrayHeap[1] = sc.nextInt();
         //obtengo siguiente.
         int valorLinea = sc.nextInt();
+        //Arranca en 2, el primero lo cargo siempre e itera hasta el anterior al ultimo que queda siempre libre.
+        int i = 2;
         //n-1 elementos a insertar --> n-1        
         while( i < (arrayHeap.length - 1) && flag){
             //Obtengo mi padre y me fijo si soy mayor que el
