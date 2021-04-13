@@ -39,9 +39,27 @@ import java.util.Scanner;
 //     }
 
 // }
-
+    //Implementacion Utilizando un Hash Cerrado.
+    //Representa un nodo a hashear en la tabla de hash, con su clave y valor.
+class HashNode{
+        String key;
+        int value;
+        HashNode(String k){
+            key = k;
+            value = 1;
+        }
+        public String getKey(){
+            return key;
+        }
+        public int getValue(){
+            return value;
+        }
+        public void setValue(int i){
+            value = i;
+        }
+}
 //Representa la Tabla de Hash (un array), donde cada bucket es del tipo HashNodeLinkedList.
-class OpenHashTable_Words{
+class ClosedHashTable_Words{
     //tamano tabla
     private int arrSize;
     //elementos en la tabla
@@ -92,7 +110,7 @@ class OpenHashTable_Words{
     }
 
     public void insertar(String clave){
-
+        //System.out.println("insertar clave: " + clave);
         int hashValue = fnHash(clave);
         int pos = hashValue % arrSize;
         int i = 1;
@@ -100,21 +118,16 @@ class OpenHashTable_Words{
 
         while (!inserte)
         {
-            if (cantElements == 0){
+            if (bucketArrayList[pos]==null){
                 bucketArrayList[pos] = new HashNode(clave);
                 cantElements++;
                 inserte = true;
-            }
-            else if (bucketArrayList[pos].key.compareTo(clave) == 0){
-                bucketArrayList[pos].value = bucketArrayList[pos].value + 1;
-                inserte = true;
-            }
-            else{
+            }else if (bucketArrayList[pos].getKey().compareTo(clave) == 0){                                    
+                bucketArrayList[pos].setValue(bucketArrayList[pos].getValue() + 1);
+                inserte = true;                                
+            }else{               
                 // Lineal
                 pos = (hashValue + i) % arrSize;
-                bucketArrayList[pos] = new HashNode(clave);
-                cantElements++;
-                inserte = true;
                 // // Cuadratico
                 // pos = (int)(hashValue + pow(i, 2)) % arrSize;
 
@@ -126,32 +139,26 @@ class OpenHashTable_Words{
         }
     }
 
-    public OpenHashTable_Words(int arrSize){
-        arrSize = siguientePrimo(arrSize);
+    public ClosedHashTable_Words(int n){
+        arrSize = siguientePrimo(n);
         cantElements = 0;
         bucketArrayList = new HashNode[arrSize];
     }
 
     public void imprimir(){
         int cant = 0;
-        for(int i=0; i <= arrSize; i++){
-            if(bucketArrayList[i].value==2){
+        //System.out.println("cant elements is: " + cantElements);
+        for(int i=0; i < arrSize -1 ; i++){
+            if(bucketArrayList[i]!=null && bucketArrayList[i].getValue()==2){
+                //System.out.println("Clave: " + bucketArrayList[i].getKey() + " valor: " + bucketArrayList[i].getValue());
                 cant++;
             }
+            // else if (bucketArrayList[i]!=null && bucketArrayList[i].getValue()!=2){
+            //     System.out.println("Clave: " + bucketArrayList[i].getKey() + " valor: " + bucketArrayList[i].getValue());                
+            // }
         }
         System.out.println(cant);
     }
-
-    //Implementacion Utilizando un Hash Cerrado.
-    //Representa un nodo a hashear en la tabla de hash, con su clave y valor.
-    static class HashNode{
-        String key;
-        int value;
-        HashNode(String k){
-            key = k;
-            value = 0;
-        }
-    }    
 }
 
 public class Ejercicio3{
@@ -159,25 +166,22 @@ public class Ejercicio3{
     public static void main(String[] args) {
 
         Scanner sc = new Scanner(System.in);
+        //obtengo cant
+        int n = sc.nextInt();        
+        ClosedHashTable_Words hashTable = new ClosedHashTable_Words(n);
+        //skip one line
+        sc.nextLine();
 
-        int n = sc.nextInt();
-        
-        OpenHashTable_Words hashTable = new OpenHashTable_Words(n);
-
-        String str = sc.nextLine();
         //n elementos a insertar --> n
         //insertar --> O (1) CP | O (n) PC
         //O (n) CP  | O (n).n PC
         for (int i = 0; i < n; i++) {
-            hashTable.insertar(str);
-            str = sc.nextLine();
-            //System.out.println(str);
+            hashTable.insertar(sc.nextLine());
         }
-
+        sc.close();
         //n elementos en la tabla de hash
         // O(n) CP || O(n) PC
-        hashTable.imprimir();
-        
+        hashTable.imprimir();                
         //Orden total = Max (O(for), O(impr)) = n          
     }
 
