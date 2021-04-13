@@ -140,7 +140,7 @@ public class Ejercicio1 {
             heap.insertar(sc.nextInt());
 
         }
-
+        sc.close();
         //n elementos en el heap --> n
         //obtener minimo --> O 1 siempre
         //imprimirMinimo --> O 1 siempre

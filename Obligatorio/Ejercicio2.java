@@ -34,7 +34,8 @@ public class Ejercicio2 {
                 valorLinea = sc.nextInt();                  
             }          
             i++;
-        }// O n-1 + 1 = n  PC        
+        }// O n-1 + 1 = n  PC
+        sc.close();        
         System.out.println(result);            
     }
 
