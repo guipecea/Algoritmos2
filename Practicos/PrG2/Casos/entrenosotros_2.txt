@@ -1,0 +1,42 @@
+14
+UpperEngine
+Cafeteria
+Weapons
+O2
+Navigation
+Shields
+Communications
+Admin
+Storage
+Electrical
+LowerEngine
+Security
+Reactor
+MedBay
+25
+Cafeteria UpperEngine
+Cafeteria MedBay
+UpperEngine MedBay
+Cafeteria Weapons
+Weapons O2
+Weapons Navigation
+Weapons Shields
+O2 Shields
+O2 Navigation
+Navigation Shields
+Shields Communications
+Storage Communications
+Shields Storage
+Storage Cafeteria
+Cafeteria Admin
+Storage Admin
+LowerEngine Electrical
+Electrical Storage
+Storage LowerEngine
+Reactor UpperEngine
+Reactor Security
+Reactor LowerEngine
+UpperEngine Security
+UpperEngine LowerEngine
+Security LowerEngine
+Admin

@@ -1,0 +1,16 @@
+Dado un grafo (disperso, dirigido y no ponderado) y un listado de vertices se quiere saber 
+si dicho listado es un orden topologico posible para dicho grafo.
+
+Entrada:
+[entrada de grafo]
+Va
+Vb
+Vc
+..
+Vv
+
+Salida:
+1 en caso de ser un OT posible
+0 no es un OT posible
+
+Restricciones: O(V+A)
