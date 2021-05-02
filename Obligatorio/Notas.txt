@@ -89,3 +89,94 @@ BBB
 CCC
 0
 
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+4. Grafo cíclico       
+Nombre de archivo: ejercicio4.cpp/Ejercicio4.java
+Dado un grafo disperso, dirigido y no ponderado, saber si dicho grafo contiene al menos un ciclo.
+
+Restricciones: O(V+A)
+Formato de entrada
+(ver formato de entrada)
+Formato de salida
+Solo contendrá una sola línea:
+“1” en el caso de que el grafo sea cíclico.
+“0” en caso contrario.
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+5. CAMINO + CORTO	Nom. de arch.: ejercicio5.cpp/Ejercicio5.java
+Dado un grafo dirigido, ponderado (sin costos negativos) y denso implementar un algoritmo que devuelve el costo total de los caminos más cortos entre todo par de vértices. 
+
+
+Restricciones: O(V^3)
+Formato de entrada
+(ver formato de entrada)
+Formato de salida
+La salida contendrá V*V líneas, donde cada línea contendrá el costo total Ci,j de ir desde vi hasta j, o -1 si no existe tal camino o i=j.
+Los costos Ci,j deben aparecer ordenados en el archivo de salida según el orden lexicográfico del par (i,j), con 1≤i≤N y 1≤j≤V.
+
+C1,1 si hay un camino de v1 a 1; -1 si no o v1=1
+C1,2 si hay un camino de v1 a 2; -1 si no o v1=2
+…
+C1,i si hay un camino de v1 a i; -1 si no o vi=i
+…
+C1,V si hay un camino de v1 a V; -1 si no o vi=V
+…
+C2,1 si hay un camino de v2 a 1; -1 si no o vi=1
+… 
+Ck,V si hay un camino de vk a V; -1 si no o vk=V
+… 
+Cv,V si hay un camino de vN a V; -1 si no o vN=V
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+6. Grafo bipartita      
+Nombre de archivo: ejercicio6.cpp/Ejercicio6.java
+Dado un grafo disperso, no dirigido y no ponderado, saber si se puede “pintar” cada uno de los vértices con alguno de dos colores disponibles, siempre y cuando ningún vértice puede ser adyacente a uno de su mismo color.
+
+Restricciones: O(V+A)
+Ref: https://en.wikipedia.org/wiki/Bipartite_graph 
+
+Ejemplo bipartita:
+
+
+
+Ejemplo no-bipartita:
+
+Formato de entrada
+(ver formato de entrada)
+Formato de salida
+Solo contendrá una sola línea:
+“1” en el caso de que el grafo sea bipartita.
+“0” en caso contrario.
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+7. Componentes fuertemente conexas
+	Nom. de arch.: ejercicio7.cpp/Ejercicio7.java
+Dado un grafo disperso, dirigido y no ponderado, se quiere saber la cantidad de componente fuertemente conexas que tiene
+
+
+Restricciones: O(V+A)
+Ref: https://en.wikipedia.org/wiki/Strongly_connected_component 
+Formato de entrada
+(ver formato de entrada)
+Formato de salida
+La salida solo contendrá una línea con la cantidad de componentes fuertemente conexas que tiene.
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+8. PT. DE ART.	Nom. de archivo: ejercicio8.cpp/Ejercicio8.java
+Implementar un algoritmo que, dado un grafo no dirigido, no ponderado, conexo y disperso, encuentre todos los puntos de articulación del mismo.
+
+Un punto de articulación es un vértice que, al removerlo (junto con todas las aristas que pasan por él), desconecta el grafo (pasa a ser no conexo ignorado dicho vértice).
+
+Restricciones: O(V*(V+A))
+Ref: https://es.wikipedia.org/wiki/V%C3%A9rtice_de_corte 
+Formato de entrada
+(Ver Formato de entrada)
+Formato de salida
+La salida contendrá M líneas, donde cada línea contendrá el número del vértice que es un punto de articulación, ordenado de menor a mayor
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
