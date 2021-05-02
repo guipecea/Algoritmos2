@@ -1,46 +1,6 @@
 import java.util.Scanner;
-
-//Implementacion Utilizando un Hash Abierto por el siguiente motivo:
-//https://www.geeksforgeeks.org/hashing-set-3-open-addressing/
-//Scenario 4 - Chaining (Hash Abierto) is mostly used when it is unknown how many (esta en el orden de n) and how frequently(desconozco la frencuencia de las claves) keys may be inserted or deleted.
-
-//Representa un nodo lista, con su informacion (lo cual lo convierte en el nodo a hashear).
-// class HashNode{
-//     string key;
-//     int value;
-
-//     //Referencia al prox Nodo
-//     HashNode next;
-    
-//     //Constructor
-//     public HashNode (string k, int v){ 
-//         key = c; 
-//         value = v;
-//         next = null; 
-//     }
-// }
-
-//Representa una Lista de Hash Nodes
-// class HashNodeLinkedList {
-    
-//     HashNode head; //head of list
-
-//     //agregar nodo al principio de la lista
-//     // O (1) CP | O (1) PC
-//     public void push (string new_key, int new_value){
-
-//         HashNode new_HashNode = new Node(new_key,new_value);
-
-//         //Sig del nuevo nodo, apunta al valor del head.
-//         new_HashNode.next = head;
-
-//         //head apunta al nuevo nodo.
-//         head = new_HashNode;
-//     }
-
-// }
-    //Implementacion Utilizando un Hash Cerrado.
-    //Representa un nodo a hashear en la tabla de hash, con su clave y valor.
+//Implementacion Utilizando un Hash Cerrado.
+//Representa un nodo a hashear en la tabla de hash, con su clave y valor.
 class HashNode{
         String key;
         int value;
