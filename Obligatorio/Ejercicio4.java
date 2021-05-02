@@ -54,75 +54,19 @@ class NodoLista {
 class LinkedListAristas {
     NodoLista head; //head of list
     int cantElementos=0;
-    //imprimir lista 
-    public void printLinkedList(){
-        //apuntamos n al head de la lista.
-        NodoLista n = head;
-
-        while (n != null){
-          //recorremos la lista.  
-            System.out.print( n.dato + " ");
-            n = n.sig; //apuntamos al siguiente nodo de la lista.
-        }
-
-    }
-
     //agregar nodo al principio de la lista
     public void push (Arista new_Arista){
         //creamos el nuevo nodo.
         NodoLista newNode = new NodoLista(new_Arista);
-
         //Sig del nuevo nodo, apunta al valor del head.
         newNode.setSigDato(head);
-
         //head apunta al nuevo nodo.
         head = newNode;
-
         cantElementos++;
-    }
-
-    //agregar nodo despues de uno dado
-    public void insertAfter(int new_data, NodoLista prev_node){
-
-        //check del nodo previo si es null.
-        // if (prev_node == null){
-        //     System.out.println("El nodo indicado no puede ser null");
-        //     return;
-        // }
-        
-        // Node new_node = new Node(new_data);
-
-        // new_node.next = prev_node.next;
-
-        // prev_node.next = new_node;
-
     }
 
     public int getCantElementos(){
         return cantElementos;
-    }
-    //agregar nodo al final 
-    public void append(int new_data){
-
-        // NodoLista newNode = new NodoLista(new_data);
-
-        // if (head == null){
-
-        //     head = newNode;
-        //     return;
-        // }
-
-        // newNode.next = null ;
-
-        // NodoLista last = head;
-
-        // while (last.next != null){
-        //     last = last.next;            
-        // }
-
-        // last.next = newNode;
-
-        // return;
     }
 }
 
@@ -162,8 +106,8 @@ class Queue {
                     % this.capacity;
         this.array[this.rear] = item;
         this.size = this.size + 1;
-        System.out.println(item
-                           + " enqueued to queue");
+        // System.out.println(item
+        //                    + " enqueued to queue");
     }
  
     // Method to remove an item from queue.
@@ -201,8 +145,13 @@ class Queue {
 
 abstract class Grafo{
     LinkedListAristas[] listaAdy;
-    Grafo(int cantidadDeVertices){ 
+    Grafo(int cantidadDeVertices){
+        //inicializo el array que contiene la implementacion de lista
         listaAdy = new LinkedListAristas[cantidadDeVertices+1];
+        //Inicializo cada elemento del array como una nueva Lista
+        for(int i=1 ; i<=cantidadDeVertices; i++){
+            listaAdy[i] = new LinkedListAristas();
+        }
     }    
     // pre:
     //  - v y w son vertices validos del grafo
@@ -240,7 +189,7 @@ class GrafoListaAdyImp extends Grafo{
     // O(1)
     void aniadirArista(int v, int w, int p){
         int pesoArista = esPonderado ? p : 1; // en el caso de ser ponderado se toma en cuenta el parametro
-        Arista a1 = new Arista(v, w, pesoArista);
+        Arista a1 = new Arista(v, w, pesoArista);        
         listaAdy[v].push(a1); // se agrega al ppio de la lista de los adyacentes al veritce v 
         a++; //sumo arista
         if (!esDirigido)// en caso de no ser dirigido podemos duplicar la arista hacia el otro sentido w->v
@@ -256,15 +205,13 @@ class GrafoListaAdyImp extends Grafo{
     }
     //O(v)
     int[] initGradoDeEntrada(GrafoListaAdyImp g, int v){
-
         int [] gradoEntradas = new int[v + 1];
-
-        for (int i = 1; i <= v; i++)
-        {
+        for (int i = 1; i <= v; i++){
+            //System.out.println("Grado Entrada V:" + i);
             LinkedListAristas adyacentes = g.adyacentesA(i);
             NodoLista n = adyacentes.head;
-            while (n != null)
-            {
+            while (n != null){
+                //System.out.println("Vertice Adyacente:" + n.dato.destino);
                 gradoEntradas[n.dato.destino]++;
                 n  = n.sig;
             }
@@ -281,18 +228,19 @@ class GrafoListaAdyImp extends Grafo{
         for(int i=1 ; i<= Math.abs(v); i++ ){
             if(gradoEntrada[i]==0){
                 //Lo marco para procesar
-                cola.enqueue(v);
+                cola.enqueue(i);
             }
         }
-
         int vertice,cont = 0;
         while(!cola.isEmpty(cola)){
             //obtengo Vertice grando entrante cero no visitado
             vertice = cola.dequeue();
+            //System.out.println("Desencolamos el: " + vertice);
             cont++;
             //creo copia de lista y recorro
             LinkedListAristas copyListaAdy = adyacentesA(vertice);
             while (copyListaAdy.head != null){
+                //System.out.println("Hay elementos en la lista de adyacencia del:" + vertice);
                 gradoEntrada[copyListaAdy.head.dato.destino]--;
                 if(gradoEntrada[copyListaAdy.head.dato.destino]==0){
                     cola.enqueue(copyListaAdy.head.dato.destino);
@@ -303,6 +251,8 @@ class GrafoListaAdyImp extends Grafo{
 
         if(cont < v){
             System.out.print(1);
+        }else{
+            System.out.print(0);
         }
     }
 
@@ -336,5 +286,5 @@ public class Ejercicio4 {
         sc.close();
         //O(V + A)
         g.ordenacionTopologica(g, v);                          
-    }    
+    }//O(T) = O(A) + O(V+A) = O(V+A)    
 }
