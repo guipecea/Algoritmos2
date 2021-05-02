@@ -126,7 +126,6 @@ class LinkedListAristas {
     }
 }
 
-// A class to represent a queue
 class Queue {
     int front, rear, size;
     int capacity;
@@ -272,7 +271,7 @@ class GrafoListaAdyImp extends Grafo{
         }
         return gradoEntradas;
     }
-
+    //O(v + A)
     void ordenacionTopologica(GrafoListaAdyImp g, int v){
         //O(A)
         int[] gradoEntrada = initGradoDeEntrada(g, v);
@@ -310,5 +309,32 @@ class GrafoListaAdyImp extends Grafo{
 }
 
 public class Ejercicio4 {
-    
+    public static void main(String[] args) {
+
+        Scanner sc = new Scanner(System.in);
+        //obtengo vertices
+        int v = sc.nextInt();
+        //System.out.println("Cant Vertices: " + v);
+        //obtengo aristas
+        int e = sc.nextInt();        
+        //System.out.println("Cant Aristas: "+ e);
+        //Creamos el Grafo
+        GrafoListaAdyImp g = new GrafoListaAdyImp(v, true, false); 
+        //skip one line
+        sc.nextLine();
+        int vi, wi, ci = 0;
+        //O(A)
+        for (int i = 1; i <= e; i++) {
+            vi = sc.nextInt();
+            wi = sc.nextInt();
+            //O(1)
+            g.aniadirArista(vi, wi, wi);
+            //ci = sc.nextInt()!=0 ? sc.nextInt() : 1;
+            //System.out.println("Linea -->" + vi +" "+ wi +" ");            
+            sc.nextLine();
+        }
+        sc.close();
+        //O(V + A)
+        g.ordenacionTopologica(g, v);                          
+    }    
 }
