@@ -1,0 +1,61 @@
+Grado Entrada V:1es: 4
+Grado Entrada V:2es: 2
+Grado Entrada V:3es: 1
+Grado Entrada V:4es: 3
+Grado Entrada V:5es: 1
+Grado Entrada V:6es: 1
+Grado Entrada V:7es: 3
+Grado Entrada V:8es: 0
+Grado Entrada V:9es: 5
+Grado Entrada V:10es: 4
+Desencolamos el: 1
+Pinto el vertice: 1 con: 0
+Hay elementos en la lista de adyacencia del:1
+Adyacente no pintado, lo pinto con el otro color
+Hay elementos en la lista de adyacencia del:1
+Adyacente no pintado, lo pinto con el otro color
+Hay elementos en la lista de adyacencia del:1
+Adyacente no pintado, lo pinto con el otro color
+Hay elementos en la lista de adyacencia del:1
+Adyacente no pintado, lo pinto con el otro color
+Desencolamos el: 2
+Pinto el vertice: 2 con: 0
+Hay elementos en la lista de adyacencia del:2
+Adyacente pintado y distinto a mi
+Hay elementos en la lista de adyacencia del:2
+Adyacente pintado y distinto a mi
+Desencolamos el: 3
+Pinto el vertice: 3 con: 0
+Hay elementos en la lista de adyacencia del:3
+Adyacente pintado y distinto a mi
+Desencolamos el: 4
+Pinto el vertice: 4 con: 0
+Hay elementos en la lista de adyacencia del:4
+Adyacente pintado y distinto a mi
+Hay elementos en la lista de adyacencia del:4
+Adyacente pintado y distinto a mi
+Hay elementos en la lista de adyacencia del:4
+Adyacente pintado y distinto a mi
+Desencolamos el: 5
+Pinto el vertice: 5 con: 0
+Hay elementos en la lista de adyacencia del:5
+Adyacente pintado y distinto a mi
+Desencolamos el: 6
+Estaba pintado el vertice: 6 con: 0
+Hay elementos en la lista de adyacencia del:6
+Adyacente pintado y distinto a mi
+Desencolamos el: 7
+Estaba pintado el vertice: 7 con: 0
+Hay elementos en la lista de adyacencia del:7
+Adyacente pintado y distinto a mi
+Hay elementos en la lista de adyacencia del:7
+Adyacente pintado y distinto a mi
+Hay elementos en la lista de adyacencia del:7
+Adyacente pintado y distinto a mi
+Desencolamos el: 9
+Estaba pintado el vertice: 9 con: 0
+Hay elementos en la lista de adyacencia del:9
+Adyacente pintado y distinto a mi
+Hay elementos en la lista de adyacencia del:9
+Adyacente pintado y con el mismo color a mi
+0

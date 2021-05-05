@@ -1,0 +1,937 @@
+Grado Entrada V:1es: 2
+Grado Entrada V:2es: 2
+Grado Entrada V:3es: 4
+Grado Entrada V:4es: 5
+Grado Entrada V:5es: 1
+Grado Entrada V:6es: 0
+Grado Entrada V:7es: 3
+Grado Entrada V:8es: 1
+Grado Entrada V:9es: 3
+Grado Entrada V:10es: 3
+Grado Entrada V:11es: 2
+Grado Entrada V:12es: 2
+Grado Entrada V:13es: 1
+Grado Entrada V:14es: 0
+Grado Entrada V:15es: 2
+Grado Entrada V:16es: 0
+Grado Entrada V:17es: 2
+Grado Entrada V:18es: 1
+Grado Entrada V:19es: 3
+Grado Entrada V:20es: 5
+Grado Entrada V:21es: 4
+Grado Entrada V:22es: 1
+Grado Entrada V:23es: 3
+Grado Entrada V:24es: 1
+Grado Entrada V:25es: 4
+Grado Entrada V:26es: 3
+Grado Entrada V:27es: 1
+Grado Entrada V:28es: 2
+Grado Entrada V:29es: 1
+Grado Entrada V:30es: 4
+Grado Entrada V:31es: 1
+Grado Entrada V:32es: 3
+Grado Entrada V:33es: 4
+Grado Entrada V:34es: 6
+Grado Entrada V:35es: 2
+Grado Entrada V:36es: 2
+Grado Entrada V:37es: 2
+Grado Entrada V:38es: 0
+Grado Entrada V:39es: 3
+Grado Entrada V:40es: 7
+Grado Entrada V:41es: 4
+Grado Entrada V:42es: 4
+Grado Entrada V:43es: 3
+Grado Entrada V:44es: 2
+Grado Entrada V:45es: 0
+Grado Entrada V:46es: 4
+Grado Entrada V:47es: 1
+Grado Entrada V:48es: 1
+Grado Entrada V:49es: 5
+Grado Entrada V:50es: 0
+Grado Entrada V:51es: 2
+Grado Entrada V:52es: 2
+Grado Entrada V:53es: 2
+Grado Entrada V:54es: 0
+Grado Entrada V:55es: 2
+Grado Entrada V:56es: 1
+Grado Entrada V:57es: 3
+Grado Entrada V:58es: 3
+Grado Entrada V:59es: 0
+Grado Entrada V:60es: 1
+Grado Entrada V:61es: 4
+Grado Entrada V:62es: 3
+Grado Entrada V:63es: 3
+Grado Entrada V:64es: 0
+Grado Entrada V:65es: 2
+Grado Entrada V:66es: 3
+Grado Entrada V:67es: 2
+Grado Entrada V:68es: 2
+Grado Entrada V:69es: 4
+Grado Entrada V:70es: 3
+Grado Entrada V:71es: 2
+Grado Entrada V:72es: 1
+Grado Entrada V:73es: 7
+Grado Entrada V:74es: 1
+Grado Entrada V:75es: 1
+Grado Entrada V:76es: 4
+Grado Entrada V:77es: 3
+Grado Entrada V:78es: 1
+Grado Entrada V:79es: 2
+Grado Entrada V:80es: 4
+Grado Entrada V:81es: 0
+Grado Entrada V:82es: 2
+Grado Entrada V:83es: 1
+Grado Entrada V:84es: 3
+Grado Entrada V:85es: 5
+Grado Entrada V:86es: 0
+Grado Entrada V:87es: 2
+Grado Entrada V:88es: 3
+Grado Entrada V:89es: 3
+Grado Entrada V:90es: 4
+Grado Entrada V:91es: 1
+Grado Entrada V:92es: 3
+Grado Entrada V:93es: 4
+Grado Entrada V:94es: 2
+Grado Entrada V:95es: 2
+Grado Entrada V:96es: 1
+Grado Entrada V:97es: 5
+Grado Entrada V:98es: 4
+Grado Entrada V:99es: 5
+Grado Entrada V:100es: 2
+Desencolamos el: 1
+Pinto el vertice: 1 con: 0
+Hay elementos en la lista de adyacencia del:1
+Adyacente no pintado, lo pinto con el otro color
+Hay elementos en la lista de adyacencia del:1
+Adyacente no pintado, lo pinto con el otro color
+Desencolamos el: 2
+Pinto el vertice: 2 con: 0
+Hay elementos en la lista de adyacencia del:2
+Adyacente no pintado, lo pinto con el otro color
+Hay elementos en la lista de adyacencia del:2
+Adyacente no pintado, lo pinto con el otro color
+Desencolamos el: 3
+Pinto el vertice: 3 con: 0
+Hay elementos en la lista de adyacencia del:3
+Adyacente no pintado, lo pinto con el otro color
+Hay elementos en la lista de adyacencia del:3
+Adyacente no pintado, lo pinto con el otro color
+Hay elementos en la lista de adyacencia del:3
+Adyacente no pintado, lo pinto con el otro color
+Hay elementos en la lista de adyacencia del:3
+Adyacente no pintado, lo pinto con el otro color
+Desencolamos el: 4
+Pinto el vertice: 4 con: 0
+Hay elementos en la lista de adyacencia del:4
+Adyacente no pintado, lo pinto con el otro color
+Hay elementos en la lista de adyacencia del:4
+Adyacente no pintado, lo pinto con el otro color
+Hay elementos en la lista de adyacencia del:4
+Adyacente no pintado, lo pinto con el otro color
+Hay elementos en la lista de adyacencia del:4
+Adyacente no pintado, lo pinto con el otro color
+Hay elementos en la lista de adyacencia del:4
+Adyacente no pintado, lo pinto con el otro color
+Desencolamos el: 5
+Pinto el vertice: 5 con: 0
+Hay elementos en la lista de adyacencia del:5
+Adyacente no pintado, lo pinto con el otro color
+Desencolamos el: 7
+Pinto el vertice: 7 con: 0
+Hay elementos en la lista de adyacencia del:7
+Adyacente no pintado, lo pinto con el otro color
+Hay elementos en la lista de adyacencia del:7
+Adyacente no pintado, lo pinto con el otro color
+Hay elementos en la lista de adyacencia del:7
+Adyacente no pintado, lo pinto con el otro color
+Desencolamos el: 8
+Pinto el vertice: 8 con: 0
+Hay elementos en la lista de adyacencia del:8
+Adyacente no pintado, lo pinto con el otro color
+Desencolamos el: 9
+Pinto el vertice: 9 con: 0
+Hay elementos en la lista de adyacencia del:9
+Adyacente no pintado, lo pinto con el otro color
+Hay elementos en la lista de adyacencia del:9
+Adyacente pintado y distinto a mi
+Hay elementos en la lista de adyacencia del:9
+Adyacente no pintado, lo pinto con el otro color
+Desencolamos el: 10
+Pinto el vertice: 10 con: 0
+Hay elementos en la lista de adyacencia del:10
+Adyacente pintado y distinto a mi
+Hay elementos en la lista de adyacencia del:10
+Adyacente pintado y distinto a mi
+Hay elementos en la lista de adyacencia del:10
+Adyacente no pintado, lo pinto con el otro color
+Desencolamos el: 11
+Pinto el vertice: 11 con: 0
+Hay elementos en la lista de adyacencia del:11
+Adyacente no pintado, lo pinto con el otro color
+Hay elementos en la lista de adyacencia del:11
+Adyacente pintado y distinto a mi
+Desencolamos el: 12
+Pinto el vertice: 12 con: 0
+Hay elementos en la lista de adyacencia del:12
+Adyacente no pintado, lo pinto con el otro color
+Hay elementos en la lista de adyacencia del:12
+Adyacente pintado y distinto a mi
+Desencolamos el: 13
+Pinto el vertice: 13 con: 0
+Hay elementos en la lista de adyacencia del:13
+Adyacente no pintado, lo pinto con el otro color
+Desencolamos el: 15
+Pinto el vertice: 15 con: 0
+Hay elementos en la lista de adyacencia del:15
+Adyacente no pintado, lo pinto con el otro color
+Hay elementos en la lista de adyacencia del:15
+Adyacente no pintado, lo pinto con el otro color
+Desencolamos el: 17
+Pinto el vertice: 17 con: 0
+Hay elementos en la lista de adyacencia del:17
+Adyacente pintado y distinto a mi
+Hay elementos en la lista de adyacencia del:17
+Adyacente pintado y distinto a mi
+Desencolamos el: 18
+Pinto el vertice: 18 con: 0
+Hay elementos en la lista de adyacencia del:18
+Adyacente pintado y distinto a mi
+Desencolamos el: 19
+Pinto el vertice: 19 con: 0
+Hay elementos en la lista de adyacencia del:19
+Adyacente no pintado, lo pinto con el otro color
+Hay elementos en la lista de adyacencia del:19
+Adyacente pintado y distinto a mi
+Hay elementos en la lista de adyacencia del:19
+Adyacente no pintado, lo pinto con el otro color
+Desencolamos el: 20
+Pinto el vertice: 20 con: 0
+Hay elementos en la lista de adyacencia del:20
+Adyacente no pintado, lo pinto con el otro color
+Hay elementos en la lista de adyacencia del:20
+Adyacente pintado y distinto a mi
+Hay elementos en la lista de adyacencia del:20
+Adyacente no pintado, lo pinto con el otro color
+Hay elementos en la lista de adyacencia del:20
+Adyacente pintado y distinto a mi
+Hay elementos en la lista de adyacencia del:20
+Adyacente no pintado, lo pinto con el otro color
+Desencolamos el: 21
+Pinto el vertice: 21 con: 0
+Hay elementos en la lista de adyacencia del:21
+Adyacente no pintado, lo pinto con el otro color
+Hay elementos en la lista de adyacencia del:21
+Adyacente pintado y distinto a mi
+Hay elementos en la lista de adyacencia del:21
+Adyacente no pintado, lo pinto con el otro color
+Hay elementos en la lista de adyacencia del:21
+Adyacente pintado y distinto a mi
+Desencolamos el: 22
+Pinto el vertice: 22 con: 0
+Hay elementos en la lista de adyacencia del:22
+Adyacente pintado y distinto a mi
+Desencolamos el: 23
+Pinto el vertice: 23 con: 0
+Hay elementos en la lista de adyacencia del:23
+Adyacente pintado y distinto a mi
+Hay elementos en la lista de adyacencia del:23
+Adyacente pintado y distinto a mi
+Hay elementos en la lista de adyacencia del:23
+Adyacente pintado y distinto a mi
+Desencolamos el: 24
+Pinto el vertice: 24 con: 0
+Hay elementos en la lista de adyacencia del:24
+Adyacente no pintado, lo pinto con el otro color
+Desencolamos el: 25
+Pinto el vertice: 25 con: 0
+Hay elementos en la lista de adyacencia del:25
+Adyacente pintado y distinto a mi
+Hay elementos en la lista de adyacencia del:25
+Adyacente pintado y distinto a mi
+Hay elementos en la lista de adyacencia del:25
+Adyacente no pintado, lo pinto con el otro color
+Hay elementos en la lista de adyacencia del:25
+Adyacente pintado y distinto a mi
+Desencolamos el: 26
+Pinto el vertice: 26 con: 0
+Hay elementos en la lista de adyacencia del:26
+Adyacente pintado y distinto a mi
+Hay elementos en la lista de adyacencia del:26
+Adyacente pintado y distinto a mi
+Hay elementos en la lista de adyacencia del:26
+Adyacente pintado y distinto a mi
+Desencolamos el: 27
+Pinto el vertice: 27 con: 0
+Hay elementos en la lista de adyacencia del:27
+Adyacente pintado y distinto a mi
+Desencolamos el: 28
+Pinto el vertice: 28 con: 0
+Hay elementos en la lista de adyacencia del:28
+Adyacente no pintado, lo pinto con el otro color
+Hay elementos en la lista de adyacencia del:28
+Adyacente pintado y distinto a mi
+Desencolamos el: 29
+Pinto el vertice: 29 con: 0
+Hay elementos en la lista de adyacencia del:29
+Adyacente pintado y distinto a mi
+Desencolamos el: 30
+Pinto el vertice: 30 con: 0
+Hay elementos en la lista de adyacencia del:30
+Adyacente pintado y distinto a mi
+Hay elementos en la lista de adyacencia del:30
+Adyacente no pintado, lo pinto con el otro color
+Hay elementos en la lista de adyacencia del:30
+Adyacente pintado y distinto a mi
+Hay elementos en la lista de adyacencia del:30
+Adyacente pintado y distinto a mi
+Desencolamos el: 31
+Pinto el vertice: 31 con: 0
+Hay elementos en la lista de adyacencia del:31
+Adyacente pintado y distinto a mi
+Desencolamos el: 32
+Pinto el vertice: 32 con: 0
+Hay elementos en la lista de adyacencia del:32
+Adyacente no pintado, lo pinto con el otro color
+Hay elementos en la lista de adyacencia del:32
+Adyacente no pintado, lo pinto con el otro color
+Hay elementos en la lista de adyacencia del:32
+Adyacente pintado y distinto a mi
+Desencolamos el: 33
+Pinto el vertice: 33 con: 0
+Hay elementos en la lista de adyacencia del:33
+Adyacente pintado y distinto a mi
+Hay elementos en la lista de adyacencia del:33
+Adyacente pintado y distinto a mi
+Hay elementos en la lista de adyacencia del:33
+Adyacente pintado y distinto a mi
+Hay elementos en la lista de adyacencia del:33
+Adyacente pintado y distinto a mi
+Desencolamos el: 34
+Pinto el vertice: 34 con: 0
+Hay elementos en la lista de adyacencia del:34
+Adyacente no pintado, lo pinto con el otro color
+Hay elementos en la lista de adyacencia del:34
+Adyacente pintado y distinto a mi
+Hay elementos en la lista de adyacencia del:34
+Adyacente no pintado, lo pinto con el otro color
+Hay elementos en la lista de adyacencia del:34
+Adyacente pintado y distinto a mi
+Hay elementos en la lista de adyacencia del:34
+Adyacente no pintado, lo pinto con el otro color
+Hay elementos en la lista de adyacencia del:34
+Adyacente pintado y distinto a mi
+Desencolamos el: 35
+Pinto el vertice: 35 con: 0
+Hay elementos en la lista de adyacencia del:35
+Adyacente pintado y distinto a mi
+Hay elementos en la lista de adyacencia del:35
+Adyacente pintado y distinto a mi
+Desencolamos el: 36
+Pinto el vertice: 36 con: 0
+Hay elementos en la lista de adyacencia del:36
+Adyacente pintado y distinto a mi
+Hay elementos en la lista de adyacencia del:36
+Adyacente no pintado, lo pinto con el otro color
+Desencolamos el: 37
+Pinto el vertice: 37 con: 0
+Hay elementos en la lista de adyacencia del:37
+Adyacente pintado y distinto a mi
+Hay elementos en la lista de adyacencia del:37
+Adyacente no pintado, lo pinto con el otro color
+Desencolamos el: 39
+Pinto el vertice: 39 con: 0
+Hay elementos en la lista de adyacencia del:39
+Adyacente pintado y distinto a mi
+Hay elementos en la lista de adyacencia del:39
+Adyacente pintado y distinto a mi
+Hay elementos en la lista de adyacencia del:39
+Adyacente pintado y distinto a mi
+Desencolamos el: 40
+Pinto el vertice: 40 con: 0
+Hay elementos en la lista de adyacencia del:40
+Adyacente pintado y distinto a mi
+Hay elementos en la lista de adyacencia del:40
+Adyacente pintado y distinto a mi
+Hay elementos en la lista de adyacencia del:40
+Adyacente pintado y distinto a mi
+Hay elementos en la lista de adyacencia del:40
+Adyacente pintado y distinto a mi
+Hay elementos en la lista de adyacencia del:40
+Adyacente pintado y distinto a mi
+Hay elementos en la lista de adyacencia del:40
+Adyacente pintado y distinto a mi
+Hay elementos en la lista de adyacencia del:40
+Adyacente pintado y distinto a mi
+Desencolamos el: 41
+Pinto el vertice: 41 con: 0
+Hay elementos en la lista de adyacencia del:41
+Adyacente pintado y distinto a mi
+Hay elementos en la lista de adyacencia del:41
+Adyacente pintado y distinto a mi
+Hay elementos en la lista de adyacencia del:41
+Adyacente pintado y distinto a mi
+Hay elementos en la lista de adyacencia del:41
+Adyacente pintado y distinto a mi
+Desencolamos el: 42
+Pinto el vertice: 42 con: 0
+Hay elementos en la lista de adyacencia del:42
+Adyacente pintado y distinto a mi
+Hay elementos en la lista de adyacencia del:42
+Adyacente pintado y distinto a mi
+Hay elementos en la lista de adyacencia del:42
+Adyacente pintado y distinto a mi
+Hay elementos en la lista de adyacencia del:42
+Adyacente pintado y distinto a mi
+Desencolamos el: 43
+Pinto el vertice: 43 con: 0
+Hay elementos en la lista de adyacencia del:43
+Adyacente pintado y distinto a mi
+Hay elementos en la lista de adyacencia del:43
+Adyacente pintado y distinto a mi
+Hay elementos en la lista de adyacencia del:43
+Adyacente pintado y distinto a mi
+Desencolamos el: 44
+Pinto el vertice: 44 con: 0
+Hay elementos en la lista de adyacencia del:44
+Adyacente pintado y distinto a mi
+Hay elementos en la lista de adyacencia del:44
+Adyacente pintado y distinto a mi
+Desencolamos el: 46
+Pinto el vertice: 46 con: 0
+Hay elementos en la lista de adyacencia del:46
+Adyacente pintado y distinto a mi
+Hay elementos en la lista de adyacencia del:46
+Adyacente pintado y distinto a mi
+Hay elementos en la lista de adyacencia del:46
+Adyacente pintado y distinto a mi
+Hay elementos en la lista de adyacencia del:46
+Adyacente no pintado, lo pinto con el otro color
+Desencolamos el: 47
+Pinto el vertice: 47 con: 0
+Hay elementos en la lista de adyacencia del:47
+Adyacente pintado y distinto a mi
+Desencolamos el: 48
+Pinto el vertice: 48 con: 0
+Hay elementos en la lista de adyacencia del:48
+Adyacente pintado y distinto a mi
+Desencolamos el: 49
+Pinto el vertice: 49 con: 0
+Hay elementos en la lista de adyacencia del:49
+Adyacente pintado y distinto a mi
+Hay elementos en la lista de adyacencia del:49
+Adyacente pintado y distinto a mi
+Hay elementos en la lista de adyacencia del:49
+Adyacente pintado y distinto a mi
+Hay elementos en la lista de adyacencia del:49
+Adyacente pintado y distinto a mi
+Hay elementos en la lista de adyacencia del:49
+Adyacente pintado y distinto a mi
+Desencolamos el: 51
+Estaba pintado el vertice: 51 con: 0
+Hay elementos en la lista de adyacencia del:51
+Adyacente pintado y distinto a mi
+Hay elementos en la lista de adyacencia del:51
+Adyacente pintado y distinto a mi
+Desencolamos el: 52
+Estaba pintado el vertice: 52 con: 0
+Hay elementos en la lista de adyacencia del:52
+Adyacente pintado y distinto a mi
+Hay elementos en la lista de adyacencia del:52
+Adyacente pintado y distinto a mi
+Desencolamos el: 53
+Estaba pintado el vertice: 53 con: 0
+Hay elementos en la lista de adyacencia del:53
+Adyacente pintado y distinto a mi
+Hay elementos en la lista de adyacencia del:53
+Adyacente pintado y distinto a mi
+Desencolamos el: 55
+Estaba pintado el vertice: 55 con: 0
+Hay elementos en la lista de adyacencia del:55
+Adyacente pintado y distinto a mi
+Hay elementos en la lista de adyacencia del:55
+Adyacente pintado y distinto a mi
+Desencolamos el: 56
+Estaba pintado el vertice: 56 con: 0
+Hay elementos en la lista de adyacencia del:56
+Adyacente pintado y distinto a mi
+Desencolamos el: 57
+Estaba pintado el vertice: 57 con: 0
+Hay elementos en la lista de adyacencia del:57
+Adyacente pintado y distinto a mi
+Hay elementos en la lista de adyacencia del:57
+Adyacente pintado y distinto a mi
+Hay elementos en la lista de adyacencia del:57
+Adyacente pintado y distinto a mi
+Desencolamos el: 58
+Estaba pintado el vertice: 58 con: 0
+Hay elementos en la lista de adyacencia del:58
+Adyacente pintado y distinto a mi
+Hay elementos en la lista de adyacencia del:58
+Adyacente pintado y distinto a mi
+Hay elementos en la lista de adyacencia del:58
+Adyacente pintado y distinto a mi
+Desencolamos el: 60
+Estaba pintado el vertice: 60 con: 0
+Hay elementos en la lista de adyacencia del:60
+Adyacente pintado y distinto a mi
+Desencolamos el: 61
+Estaba pintado el vertice: 61 con: 0
+Hay elementos en la lista de adyacencia del:61
+Adyacente pintado y distinto a mi
+Hay elementos en la lista de adyacencia del:61
+Adyacente pintado y distinto a mi
+Hay elementos en la lista de adyacencia del:61
+Adyacente pintado y distinto a mi
+Hay elementos en la lista de adyacencia del:61
+Adyacente pintado y distinto a mi
+Desencolamos el: 62
+Estaba pintado el vertice: 62 con: 0
+Hay elementos en la lista de adyacencia del:62
+Adyacente pintado y distinto a mi
+Hay elementos en la lista de adyacencia del:62
+Adyacente pintado y distinto a mi
+Hay elementos en la lista de adyacencia del:62
+Adyacente pintado y distinto a mi
+Desencolamos el: 63
+Estaba pintado el vertice: 63 con: 0
+Hay elementos en la lista de adyacencia del:63
+Adyacente pintado y distinto a mi
+Hay elementos en la lista de adyacencia del:63
+Adyacente pintado y distinto a mi
+Hay elementos en la lista de adyacencia del:63
+Adyacente pintado y distinto a mi
+Desencolamos el: 65
+Estaba pintado el vertice: 65 con: 0
+Hay elementos en la lista de adyacencia del:65
+Adyacente pintado y distinto a mi
+Hay elementos en la lista de adyacencia del:65
+Adyacente pintado y distinto a mi
+Desencolamos el: 66
+Estaba pintado el vertice: 66 con: 0
+Hay elementos en la lista de adyacencia del:66
+Adyacente pintado y distinto a mi
+Hay elementos en la lista de adyacencia del:66
+Adyacente pintado y distinto a mi
+Hay elementos en la lista de adyacencia del:66
+Adyacente pintado y distinto a mi
+Desencolamos el: 67
+Estaba pintado el vertice: 67 con: 0
+Hay elementos en la lista de adyacencia del:67
+Adyacente pintado y distinto a mi
+Hay elementos en la lista de adyacencia del:67
+Adyacente pintado y distinto a mi
+Desencolamos el: 68
+Estaba pintado el vertice: 68 con: 0
+Hay elementos en la lista de adyacencia del:68
+Adyacente pintado y distinto a mi
+Hay elementos en la lista de adyacencia del:68
+Adyacente pintado y distinto a mi
+Desencolamos el: 69
+Estaba pintado el vertice: 69 con: 0
+Hay elementos en la lista de adyacencia del:69
+Adyacente pintado y distinto a mi
+Hay elementos en la lista de adyacencia del:69
+Adyacente pintado y distinto a mi
+Hay elementos en la lista de adyacencia del:69
+Adyacente pintado y distinto a mi
+Hay elementos en la lista de adyacencia del:69
+Adyacente pintado y distinto a mi
+Desencolamos el: 70
+Estaba pintado el vertice: 70 con: 0
+Hay elementos en la lista de adyacencia del:70
+Adyacente pintado y distinto a mi
+Hay elementos en la lista de adyacencia del:70
+Adyacente pintado y distinto a mi
+Hay elementos en la lista de adyacencia del:70
+Adyacente pintado y distinto a mi
+Desencolamos el: 71
+Estaba pintado el vertice: 71 con: 0
+Hay elementos en la lista de adyacencia del:71
+Adyacente pintado y distinto a mi
+Hay elementos en la lista de adyacencia del:71
+Adyacente pintado y distinto a mi
+Desencolamos el: 72
+Estaba pintado el vertice: 72 con: 0
+Hay elementos en la lista de adyacencia del:72
+Adyacente pintado y distinto a mi
+Desencolamos el: 73
+Estaba pintado el vertice: 73 con: 0
+Hay elementos en la lista de adyacencia del:73
+Adyacente pintado y distinto a mi
+Hay elementos en la lista de adyacencia del:73
+Adyacente pintado y distinto a mi
+Hay elementos en la lista de adyacencia del:73
+Adyacente pintado y distinto a mi
+Hay elementos en la lista de adyacencia del:73
+Adyacente pintado y distinto a mi
+Hay elementos en la lista de adyacencia del:73
+Adyacente pintado y distinto a mi
+Hay elementos en la lista de adyacencia del:73
+Adyacente pintado y distinto a mi
+Hay elementos en la lista de adyacencia del:73
+Adyacente pintado y distinto a mi
+Desencolamos el: 74
+Estaba pintado el vertice: 74 con: 0
+Hay elementos en la lista de adyacencia del:74
+Adyacente pintado y distinto a mi
+Desencolamos el: 75
+Estaba pintado el vertice: 75 con: 0
+Hay elementos en la lista de adyacencia del:75
+Adyacente pintado y distinto a mi
+Desencolamos el: 76
+Estaba pintado el vertice: 76 con: 0
+Hay elementos en la lista de adyacencia del:76
+Adyacente pintado y distinto a mi
+Hay elementos en la lista de adyacencia del:76
+Adyacente pintado y distinto a mi
+Hay elementos en la lista de adyacencia del:76
+Adyacente pintado y distinto a mi
+Hay elementos en la lista de adyacencia del:76
+Adyacente pintado y distinto a mi
+Desencolamos el: 77
+Estaba pintado el vertice: 77 con: 0
+Hay elementos en la lista de adyacencia del:77
+Adyacente pintado y distinto a mi
+Hay elementos en la lista de adyacencia del:77
+Adyacente pintado y distinto a mi
+Hay elementos en la lista de adyacencia del:77
+Adyacente pintado y distinto a mi
+Desencolamos el: 78
+Estaba pintado el vertice: 78 con: 0
+Hay elementos en la lista de adyacencia del:78
+Adyacente pintado y distinto a mi
+Desencolamos el: 79
+Estaba pintado el vertice: 79 con: 0
+Hay elementos en la lista de adyacencia del:79
+Adyacente pintado y distinto a mi
+Hay elementos en la lista de adyacencia del:79
+Adyacente pintado y distinto a mi
+Desencolamos el: 80
+Estaba pintado el vertice: 80 con: 0
+Hay elementos en la lista de adyacencia del:80
+Adyacente pintado y distinto a mi
+Hay elementos en la lista de adyacencia del:80
+Adyacente pintado y distinto a mi
+Hay elementos en la lista de adyacencia del:80
+Adyacente pintado y distinto a mi
+Hay elementos en la lista de adyacencia del:80
+Adyacente pintado y distinto a mi
+Desencolamos el: 82
+Estaba pintado el vertice: 82 con: 0
+Hay elementos en la lista de adyacencia del:82
+Adyacente pintado y distinto a mi
+Hay elementos en la lista de adyacencia del:82
+Adyacente pintado y distinto a mi
+Desencolamos el: 83
+Estaba pintado el vertice: 83 con: 0
+Hay elementos en la lista de adyacencia del:83
+Adyacente pintado y distinto a mi
+Desencolamos el: 84
+Estaba pintado el vertice: 84 con: 0
+Hay elementos en la lista de adyacencia del:84
+Adyacente pintado y distinto a mi
+Hay elementos en la lista de adyacencia del:84
+Adyacente pintado y distinto a mi
+Hay elementos en la lista de adyacencia del:84
+Adyacente pintado y distinto a mi
+Desencolamos el: 85
+Estaba pintado el vertice: 85 con: 0
+Hay elementos en la lista de adyacencia del:85
+Adyacente pintado y distinto a mi
+Hay elementos en la lista de adyacencia del:85
+Adyacente pintado y distinto a mi
+Hay elementos en la lista de adyacencia del:85
+Adyacente pintado y distinto a mi
+Hay elementos en la lista de adyacencia del:85
+Adyacente pintado y distinto a mi
+Hay elementos en la lista de adyacencia del:85
+Adyacente pintado y distinto a mi
+Desencolamos el: 87
+Estaba pintado el vertice: 87 con: 0
+Hay elementos en la lista de adyacencia del:87
+Adyacente pintado y distinto a mi
+Hay elementos en la lista de adyacencia del:87
+Adyacente pintado y distinto a mi
+Desencolamos el: 88
+Estaba pintado el vertice: 88 con: 0
+Hay elementos en la lista de adyacencia del:88
+Adyacente pintado y distinto a mi
+Hay elementos en la lista de adyacencia del:88
+Adyacente pintado y distinto a mi
+Hay elementos en la lista de adyacencia del:88
+Adyacente pintado y distinto a mi
+Desencolamos el: 89
+Estaba pintado el vertice: 89 con: 0
+Hay elementos en la lista de adyacencia del:89
+Adyacente pintado y distinto a mi
+Hay elementos en la lista de adyacencia del:89
+Adyacente pintado y distinto a mi
+Hay elementos en la lista de adyacencia del:89
+Adyacente pintado y distinto a mi
+Desencolamos el: 90
+Estaba pintado el vertice: 90 con: 0
+Hay elementos en la lista de adyacencia del:90
+Adyacente pintado y distinto a mi
+Hay elementos en la lista de adyacencia del:90
+Adyacente pintado y distinto a mi
+Hay elementos en la lista de adyacencia del:90
+Adyacente pintado y distinto a mi
+Hay elementos en la lista de adyacencia del:90
+Adyacente pintado y distinto a mi
+Desencolamos el: 91
+Estaba pintado el vertice: 91 con: 0
+Hay elementos en la lista de adyacencia del:91
+Adyacente pintado y distinto a mi
+Desencolamos el: 92
+Estaba pintado el vertice: 92 con: 0
+Hay elementos en la lista de adyacencia del:92
+Adyacente pintado y distinto a mi
+Hay elementos en la lista de adyacencia del:92
+Adyacente pintado y distinto a mi
+Hay elementos en la lista de adyacencia del:92
+Adyacente pintado y distinto a mi
+Desencolamos el: 93
+Estaba pintado el vertice: 93 con: 0
+Hay elementos en la lista de adyacencia del:93
+Adyacente pintado y distinto a mi
+Hay elementos en la lista de adyacencia del:93
+Adyacente pintado y distinto a mi
+Hay elementos en la lista de adyacencia del:93
+Adyacente pintado y distinto a mi
+Hay elementos en la lista de adyacencia del:93
+Adyacente pintado y distinto a mi
+Desencolamos el: 94
+Estaba pintado el vertice: 94 con: 0
+Hay elementos en la lista de adyacencia del:94
+Adyacente pintado y distinto a mi
+Hay elementos en la lista de adyacencia del:94
+Adyacente pintado y distinto a mi
+Desencolamos el: 95
+Estaba pintado el vertice: 95 con: 0
+Hay elementos en la lista de adyacencia del:95
+Adyacente pintado y distinto a mi
+Hay elementos en la lista de adyacencia del:95
+Adyacente pintado y distinto a mi
+Desencolamos el: 96
+Estaba pintado el vertice: 96 con: 0
+Hay elementos en la lista de adyacencia del:96
+Adyacente pintado y distinto a mi
+Desencolamos el: 97
+Estaba pintado el vertice: 97 con: 0
+Hay elementos en la lista de adyacencia del:97
+Adyacente pintado y distinto a mi
+Hay elementos en la lista de adyacencia del:97
+Adyacente pintado y distinto a mi
+Hay elementos en la lista de adyacencia del:97
+Adyacente pintado y distinto a mi
+Hay elementos en la lista de adyacencia del:97
+Adyacente pintado y distinto a mi
+Hay elementos en la lista de adyacencia del:97
+Adyacente pintado y distinto a mi
+Desencolamos el: 98
+Estaba pintado el vertice: 98 con: 0
+Hay elementos en la lista de adyacencia del:98
+Adyacente pintado y distinto a mi
+Hay elementos en la lista de adyacencia del:98
+Adyacente pintado y distinto a mi
+Hay elementos en la lista de adyacencia del:98
+Adyacente pintado y distinto a mi
+Hay elementos en la lista de adyacencia del:98
+Adyacente pintado y distinto a mi
+Desencolamos el: 99
+Estaba pintado el vertice: 99 con: 0
+Hay elementos en la lista de adyacencia del:99
+Adyacente pintado y distinto a mi
+Hay elementos en la lista de adyacencia del:99
+Adyacente pintado y distinto a mi
+Hay elementos en la lista de adyacencia del:99
+Adyacente pintado y distinto a mi
+Hay elementos en la lista de adyacencia del:99
+Adyacente pintado y distinto a mi
+Hay elementos en la lista de adyacencia del:99
+Adyacente pintado y distinto a mi
+Desencolamos el: 100
+Estaba pintado el vertice: 100 con: 0
+Hay elementos en la lista de adyacencia del:100
+Adyacente pintado y distinto a mi
+Hay elementos en la lista de adyacencia del:100
+Adyacente pintado y distinto a mi
+Desencolamos el: 75
+Estaba pintado el vertice: 75 con: 0
+Desencolamos el: 60
+Estaba pintado el vertice: 60 con: 0
+Desencolamos el: 72
+Estaba pintado el vertice: 72 con: 0
+Desencolamos el: 91
+Estaba pintado el vertice: 91 con: 0
+Desencolamos el: 82
+Estaba pintado el vertice: 82 con: 0
+Desencolamos el: 71
+Estaba pintado el vertice: 71 con: 0
+Desencolamos el: 67
+Estaba pintado el vertice: 67 con: 0
+Desencolamos el: 100
+Estaba pintado el vertice: 100 con: 0
+Desencolamos el: 53
+Estaba pintado el vertice: 53 con: 0
+Desencolamos el: 55
+Estaba pintado el vertice: 55 con: 0
+Desencolamos el: 94
+Estaba pintado el vertice: 94 con: 0
+Desencolamos el: 65
+Estaba pintado el vertice: 65 con: 0
+Desencolamos el: 56
+Estaba pintado el vertice: 56 con: 0
+Desencolamos el: 80
+Estaba pintado el vertice: 80 con: 0
+Desencolamos el: 83
+Estaba pintado el vertice: 83 con: 0
+Desencolamos el: 77
+Estaba pintado el vertice: 77 con: 0
+Desencolamos el: 84
+Estaba pintado el vertice: 84 con: 0
+Desencolamos el: 96
+Estaba pintado el vertice: 96 con: 0
+Desencolamos el: 58
+Estaba pintado el vertice: 58 con: 0
+Desencolamos el: 52
+Estaba pintado el vertice: 52 con: 0
+Desencolamos el: 95
+Estaba pintado el vertice: 95 con: 0
+Desencolamos el: 78
+Estaba pintado el vertice: 78 con: 0
+Desencolamos el: 99
+Estaba pintado el vertice: 99 con: 0
+Desencolamos el: 87
+Estaba pintado el vertice: 87 con: 0
+Desencolamos el: 57
+Estaba pintado el vertice: 57 con: 0
+Desencolamos el: 62
+Estaba pintado el vertice: 62 con: 0
+Desencolamos el: 92
+Estaba pintado el vertice: 92 con: 0
+Desencolamos el: 88
+Estaba pintado el vertice: 88 con: 0
+Desencolamos el: 66
+Estaba pintado el vertice: 66 con: 0
+Desencolamos el: 98
+Estaba pintado el vertice: 98 con: 0
+Desencolamos el: 61
+Estaba pintado el vertice: 61 con: 0
+Desencolamos el: 90
+Estaba pintado el vertice: 90 con: 0
+Desencolamos el: 68
+Estaba pintado el vertice: 68 con: 0
+Desencolamos el: 89
+Estaba pintado el vertice: 89 con: 0
+Desencolamos el: 76
+Estaba pintado el vertice: 76 con: 0
+Desencolamos el: 70
+Estaba pintado el vertice: 70 con: 0
+Desencolamos el: 97
+Estaba pintado el vertice: 97 con: 0
+Desencolamos el: 74
+Estaba pintado el vertice: 74 con: 0
+Desencolamos el: 85
+Estaba pintado el vertice: 85 con: 0
+Desencolamos el: 51
+Estaba pintado el vertice: 51 con: 0
+Desencolamos el: 63
+Estaba pintado el vertice: 63 con: 0
+Desencolamos el: 73
+Estaba pintado el vertice: 73 con: 0
+Desencolamos el: 69
+Estaba pintado el vertice: 69 con: 0
+Desencolamos el: 79
+Estaba pintado el vertice: 79 con: 0
+Desencolamos el: 93
+Estaba pintado el vertice: 93 con: 0
+Desencolamos el: 48
+Estaba pintado el vertice: 48 con: 0
+Desencolamos el: 13
+Estaba pintado el vertice: 13 con: 0
+Desencolamos el: 27
+Estaba pintado el vertice: 27 con: 0
+Desencolamos el: 18
+Estaba pintado el vertice: 18 con: 0
+Desencolamos el: 37
+Estaba pintado el vertice: 37 con: 0
+Desencolamos el: 19
+Estaba pintado el vertice: 19 con: 0
+Desencolamos el: 28
+Estaba pintado el vertice: 28 con: 0
+Desencolamos el: 15
+Estaba pintado el vertice: 15 con: 0
+Desencolamos el: 22
+Estaba pintado el vertice: 22 con: 0
+Desencolamos el: 4
+Estaba pintado el vertice: 4 con: 0
+Desencolamos el: 24
+Estaba pintado el vertice: 24 con: 0
+Desencolamos el: 31
+Estaba pintado el vertice: 31 con: 0
+Desencolamos el: 30
+Estaba pintado el vertice: 30 con: 0
+Desencolamos el: 9
+Estaba pintado el vertice: 9 con: 0
+Desencolamos el: 25
+Estaba pintado el vertice: 25 con: 0
+Desencolamos el: 5
+Estaba pintado el vertice: 5 con: 0
+Desencolamos el: 47
+Estaba pintado el vertice: 47 con: 0
+Desencolamos el: 17
+Estaba pintado el vertice: 17 con: 0
+Desencolamos el: 12
+Estaba pintado el vertice: 12 con: 0
+Desencolamos el: 10
+Estaba pintado el vertice: 10 con: 0
+Desencolamos el: 26
+Estaba pintado el vertice: 26 con: 0
+Desencolamos el: 44
+Estaba pintado el vertice: 44 con: 0
+Desencolamos el: 32
+Estaba pintado el vertice: 32 con: 0
+Desencolamos el: 8
+Estaba pintado el vertice: 8 con: 0
+Desencolamos el: 21
+Estaba pintado el vertice: 21 con: 0
+Desencolamos el: 41
+Estaba pintado el vertice: 41 con: 0
+Desencolamos el: 49
+Estaba pintado el vertice: 49 con: 0
+Desencolamos el: 29
+Estaba pintado el vertice: 29 con: 0
+Desencolamos el: 36
+Estaba pintado el vertice: 36 con: 0
+Desencolamos el: 34
+Estaba pintado el vertice: 34 con: 0
+Desencolamos el: 40
+Estaba pintado el vertice: 40 con: 0
+Desencolamos el: 46
+Estaba pintado el vertice: 46 con: 0
+Desencolamos el: 3
+Estaba pintado el vertice: 3 con: 0
+Desencolamos el: 43
+Estaba pintado el vertice: 43 con: 0
+Desencolamos el: 33
+Estaba pintado el vertice: 33 con: 0
+Desencolamos el: 42
+Estaba pintado el vertice: 42 con: 0
+Desencolamos el: 7
+Estaba pintado el vertice: 7 con: 0
+Desencolamos el: 39
+Estaba pintado el vertice: 39 con: 0
+Desencolamos el: 35
+Estaba pintado el vertice: 35 con: 0
+Desencolamos el: 11
+Estaba pintado el vertice: 11 con: 0
+Desencolamos el: 2
+Estaba pintado el vertice: 2 con: 0
+Desencolamos el: 23
+Estaba pintado el vertice: 23 con: 0
+Desencolamos el: 20
+Estaba pintado el vertice: 20 con: 0
+Desencolamos el: 1
+Estaba pintado el vertice: 1 con: 0
+1
