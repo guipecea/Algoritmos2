@@ -177,7 +177,7 @@ class GrafoListaAdyImp extends Grafo{
             }
         }
         for (int i = 1; i <= v; i++){
-            System.out.println("Grado Entrada V:" + i + "es: " + gradoEntradas[i]);            
+            // System.out.println("Grado Entrada V" + i + " es: " + gradoEntradas[i]);            
         }
         return gradoEntradas;
     }
@@ -207,34 +207,34 @@ class GrafoListaAdyImp extends Grafo{
         while(!cola.isEmpty(cola)){
             //obtengo Vertice grando entrante cero no visitado
             vertice = cola.dequeue();
-            System.out.println("Desencolamos el: " + vertice);
+            // System.out.println("Desencolamos el: " + vertice);
             //Si no está pintado, lo pinto
             if(colorVertices[vertice]==2){
-                System.out.println("Pinto el vertice: " + vertice + " con: " + 0);
+                // System.out.println("Pinto el vertice: " + vertice + " con: " + 0);
                 colorVertices[vertice]=0;
             }else{
-                System.out.println("Estaba pintado el vertice: " + vertice + " con: " + 0);
+                // System.out.println("Estaba pintado el vertice: " + vertice + " con: " + colorVertices[vertice]);
             }            
             //creo copia de lista y recorro
             LinkedListAristas copyListaAdy = adyacentesA(vertice);
             while (copyListaAdy.head != null){
-                System.out.println("Hay elementos en la lista de adyacencia del:" + vertice);
-                gradoEntrada[copyListaAdy.head.dato.destino]--;
+                // System.out.println("Hay elementos en la lista de adyacencia del: " + vertice);
+                //gradoEntrada[copyListaAdy.head.dato.destino]--;
                 //si mi adyacente no esta pintado, lo pinto , diferente a mi.                                
                 if(colorVertices[copyListaAdy.head.dato.destino]==2){
                     colorVertices[copyListaAdy.head.dato.destino]=1;
-                    System.out.println("Adyacente no pintado, lo pinto con el otro color");
+                    // System.out.println("Adyacente no pintado, lo pinto con el otro color: " + colorVertices[copyListaAdy.head.dato.destino]);
                 }else if(colorVertices[copyListaAdy.head.dato.destino]!=2 && colorVertices[vertice]==colorVertices[copyListaAdy.head.dato.destino]){
                     //Ya esta pintado. Tiene mi mismo color.
-                    System.out.println("Adyacente pintado y con el mismo color a mi");                    
+                    // System.out.println("Adyacente pintado y con el mismo color a mi");                    
                     return bipartito = false;
                 }else if(colorVertices[copyListaAdy.head.dato.destino]!=2 && colorVertices[vertice]!=colorVertices[copyListaAdy.head.dato.destino]){
-                    System.out.println("Adyacente pintado y distinto a mi");
+                    // System.out.println("Adyacente pintado y distinto a mi");
                 }
                 //Me fijo si ya quedo para procesar y en caso afirmativo lo encolo
-                if(gradoEntrada[copyListaAdy.head.dato.destino]==0){
-                    cola.enqueue(copyListaAdy.head.dato.destino);
-                }
+                // if(gradoEntrada[copyListaAdy.head.dato.destino]==0){
+                //     cola.enqueue(copyListaAdy.head.dato.destino);
+                // }
                 copyListaAdy.head = copyListaAdy.head.sig;
             }            
         }
